@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rtbCode.Text" xml:space="preserve">
+    <value>Public Class Languages
+     Public Shared _4CS = "4cs"
+     Public Shared _6502ACMECrossAssembler = "6502acme"
+     Public Shared _6502KickAssembler = "6502kickass"
+     Public Shared _6502TASM64TASS = "6502tasm"
+     Public Shared _ABAP = "abap"
+     Public Shared ActionScript = "actionscript"
+     Public Shared ActionScript3 = "actionscript3"
+     Public Shared Ada = "ada"
+     Public Shared AIMMS = "aimms"
+     Public Shared ALGOL68 = "algol68"
+     Public Shared ApacheLog = "apache"
+     Public Shared AppleScript = "applescript"
+     Public Shared APTSources = "apt_sources"
+     Public Shared ARM = "arm"
+     Public Shared ASM = "asm"
+     Public Shared ASP = "asp"
+     Public Shared Asymptote = "asymptote"
+     Public Shared autoconf = "autoconf"
+     Public Shared Autohotkey = "autohotkey"
+     Public Shared AutoIt = "autoit"
+     Public Shared Avisynth = "avisynth"
+     Public Shared Awk = "awk"
+     Public Shared BASCOMAVR = "bascomavr"
+     Public Shared Bash = "bash"
+     Public Shared Basic4GL = "basic4gl"
+     Public Shared Batch = "dos"
+     Public Shared BibTeX = "bibtex"
+     Public Shared BlitzBasic = "blitzbasic"
+     Public Shared Blitz3D = "b3d"
+     Public Shared BlitzMax = "bmx"
+     Public Shared BNF = "bnf"
+     Public Shared BOO = "boo"
+     Public Shared BrainFuck = "bf"
+     Public Shared C = "c"
+     Public Shared CWinAPI = "c_winapi"
+     Public Shared CforMacs = "c_mac"
+     Public Shared CIntermediateLanguage = "cil"
+     Public Shared CSharp = "csharp"
+     Public Shared CPlusPlus = "cpp"
+     Public Shared CPlusPlusWinApi = "cpp-winapi"
+     Public Shared CPlusPlusWithQtextensions = "cpp-qt"
+     Public Shared CLoadrunner = "c_loadrunner"
+     Public Shared CADDCL = "caddcl"
+     Public Shared CADLisp = "cadlisp"
+     Public Shared CFDG = "cfdg"
+     Public Shared ChaiScript = "chaiscript"
+     Public Shared Chapel = "chapel"
+     Public Shared Clojure = "clojure"
+     Public Shared CloneC = "klonec"
+     Public Shared CloneCPlusPlus = "klonecpp"
+     Public Shared CMake = "cmake"
+     Public Shared COBOL = "cobol"
+     Public Shared CoffeeScript = "coffeescript"
+     Public Shared ColdFusion = "cfm"
+     Public Shared CSS = "css"
+     Public Shared Cuesheet = "cuesheet"
+     Public Shared D = "d"
+     Public Shared Dart = "dart"
+     Public Shared DCL = "dcl"
+     Public Shared DCPU16 = "dcpu16"
+     Public Shared DCS = "dcs"
+     Public Shared Delphi = "delphi"
+     Public Shared Oxygene  = "oxygene"
+     Public Shared Diff = "diff"
+     Public Shared DIV = "div"
+     Public Shared DOT = "dot"
+     Public Shared E = "e"
+     Public Shared Easytrieve = "ezt"
+     Public Shared ECMAScript = "ecmascript"
+     Public Shared Eiffel = "eiffel"
+     Public Shared Email = "email"
+     Public Shared EPC = "epc"
+     Public Shared Erlang = "erlang"
+     Public Shared Euphoria = "euphoria"
+     Public Shared F# = "fsharp"
+     Public Shared Falcon = "falcon"
+     Public Shared Filemaker = "filemaker"
+     Public Shared FOLanguage = "fo"
+     Public Shared FormulaOne = "f1"
+     Public Shared Fortran = "fortran"
+     Public Shared FreeBasic = "freebasic"
+     Public Shared FreeSWITCH = "freeswitch"
+     Public Shared GAMBAS = "gambas"
+     Public Shared GameMaker = "gml"
+     Public Shared GDB = "gdb"
+     Public Shared Genero = "genero"
+     Public Shared Genie = "genie"
+     Public Shared GetText = "gettext"
+     Public Shared Go = "go"
+     Public Shared Groovy = "groovy"
+     Public Shared GwBasic = "gwbasic"
+     Public Shared Haskell = "haskell"
+     Public Shared Haxe = "haxe"
+     Public Shared HicEst = "hicest"
+     Public Shared HQ9Plus = "hq9plus"
+     Public Shared HTML = "html4strict"
+     Public Shared HTML5 = "html5"
+     Public Shared Icon = "icon"
+     Public Shared IDL = "idl"
+     Public Shared INIfile = "ini"
+     Public Shared InnoScript = "inno"
+     Public Shared INTERCAL = "intercal"
+     Public Shared IO = "io"
+     Public Shared ISPFPanelDefinition = "ispfpanel"
+     Public Shared J = "j"
+     Public Shared Java = "java"
+     Public Shared Java5 = "java5"
+     Public Shared JavaScript = "javascript"
+     Public Shared JCL = "jcl"
+     Public Shared jQuery = "jquery"
+     Public Shared JSON = "json"
+     Public Shared Julia = "julia"
+     Public Shared KiXtart = "kixtart"
+     Public Shared Latex = "latex"
+     Public Shared LDIF = "ldif"
+     Public Shared LibertyBASIC = "lb"
+     Public Shared LindenScripting = "lsl2"
+     Public Shared Lisp = "lisp"
+     Public Shared LLVM = "llvm"
+     Public Shared LocoBasic = "locobasic"
+     Public Shared Logtalk = "logtalk"
+     Public Shared LOLCode = "lolcode"
+     Public Shared LotusFormulas = "lotusformulas"
+     Public Shared LotusScript = "lotusscript"
+     Public Shared LScript = "lscript"
+     Public Shared Lua = "lua"
+     Public Shared M68000Assembler = "m68k"
+     Public Shared MagikSF = "magiksf"
+     Public Shared Make = "make"
+     Public Shared MapBasic = "mapbasic"
+     Public Shared MatLab = "matlab"
+     Public Shared mIRC = "mirc"
+     Public Shared MIXAssembler = "mmix"
+     Public Shared Modula2 = "modula2"
+     Public Shared Modula3 = "modula3"
+     Public Shared Motorola68000HiSoftDev = "68000devpac"
+     Public Shared MPASM = "mpasm"
+     Public Shared MXML = "mxml"
+     Public Shared MySQL = "mysql"
+     Public Shared Nagios = "nagios"
+     Public Shared NetRexx = "netrexx"
+     Public Shared newLISP = "newlisp"
+     Public Shared Nginx = "nginx"
+     Public Shared Nimrod = "nimrod"
+     Public Shared None = "text"
+     Public Shared NullSoftInstaller = "nsis"
+     Public Shared Oberon2 = "oberon2"
+     Public Shared ObjeckProgrammingLangua = "objeck"
+     Public Shared ObjectiveC = "objc"
+     Public Shared OCalmBrief = "ocaml-brief"
+     Public Shared OCaml = "ocaml"
+     Public Shared Octave = "octave"
+     Public Shared OpenObjectRexx = "oorexx"
+     Public Shared OpenBSDPACKETFILTER = "pf"
+     Public Shared OpenGLShading = "glsl"
+     Public Shared OpenofficeBASIC = "oobas"
+     Public Shared Oracle11 = "oracle11"
+     Public Shared Oracle8 = "oracle8"
+     Public Shared Oz = "oz"
+     Public Shared ParaSail = "parasail"
+     Public Shared PARIGP = "parigp"
+     Public Shared Pascal = "pascal"
+     Public Shared Pawn = "pawn"
+     Public Shared PCRE = "pcre"
+     Public Shared Per = "per"
+     Public Shared Perl = "perl"
+     Public Shared Perl6 = "perl6"
+     Public Shared PHP = "php"
+     Public Shared PHPBrief = "php-brief"
+     Public Shared Pic16 = "pic16"
+     Public Shared Pike = "pike"
+     Public Shared PixelBender = "pixelbender"
+     Public Shared PLI = "pli"
+     Public Shared PLSQL = "plsql"
+     Public Shared PostgreSQL = "postgresql"
+     Public Shared PostScript = "postscript"
+     Public Shared POVRay = "povray"
+     Public Shared PowerShell = "powershell"
+     Public Shared PowerBuilder = "powerbuilder"
+     Public Shared ProFTPd = "proftpd"
+     Public Shared Progress = "progress"
+     Public Shared Prolog = "prolog"
+     Public Shared Properties = "properties"
+     Public Shared ProvideX = "providex"
+     Public Shared Puppet = "puppet"
+     Public Shared PureBasic = "purebasic"
+     Public Shared PyCon = "pycon"
+     Public Shared Python = "python"
+     Public Shared PythonforS60 = "pys60"
+     Public Shared qkdbplus = "q"
+     Public Shared QBasic = "qbasic"
+     Public Shared QML = "qml"
+     Public Shared R = "rsplus"
+     Public Shared Racket = "racket"
+     Public Shared Rails = "rails"
+     Public Shared RBScript = "rbs"
+     Public Shared REBOL = "rebol"
+     Public Shared REG = "reg"
+     Public Shared Rexx = "rexx"
+     Public Shared Robots = "robots"
+     Public Shared RPMSpec = "rpmspec"
+     Public Shared Ruby = "ruby"
+     Public Shared RubyGnuplot = "gnuplot"
+     Public Shared Rust = "rust"
+     Public Shared SAS = "sas"
+     Public Shared Scala = "scala"
+     Public Shared Scheme = "scheme"
+     Public Shared Scilab = "scilab"
+     Public Shared SCL = "scl"
+     Public Shared SdlBasic = "sdlbasic"
+     Public Shared Smalltalk = "smalltalk"
+     Public Shared Smarty = "smarty"
+     Public Shared SPARK = "spark"
+     Public Shared SPARQL = "sparql"
+     Public Shared SQF = "sqf"
+     Public Shared SQL = "sql"
+     Public Shared StandardML = "standardml"
+     Public Shared StoneScript = "stonescript"
+     Public Shared SuperCollider = "sclang"
+     Public Shared Swift = "swift"
+     Public Shared SystemVerilog = "systemverilog"
+     Public Shared TSQL = "tsql"
+     Public Shared TCL = "tcl"
+     Public Shared TeraTerm = "teraterm"
+     Public Shared thinBasic = "thinbasic"
+     Public Shared TypoScript = "typoscript"
+     Public Shared Unicon = "unicon"
+     Public Shared UnrealScript = "uscript"
+     Public Shared UPC = "upc"
+     Public Shared Urbi = "urbi"
+     Public Shared Vala = "vala"
+     Public Shared VBNET = "vbnet"
+     Public Shared VBScript = "vbscript"
+     Public Shared Vedit = "vedit"
+     Public Shared VeriLog = "verilog"
+     Public Shared VHDL = "vhdl"
+     Public Shared VIM = "vim"
+     Public Shared VisualProLog = "visualprolog"
+     Public Shared VisualBasic = "vb"
+     Public Shared VisualFoxPro = "visualfoxpro"
+     Public Shared WhiteSpace = "whitespace"
+     Public Shared WHOIS = "whois"
+     Public Shared Winbatch = "winbatch"
+     Public Shared XBasic = "xbasic"
+     Public Shared XML = "xml"
+     Public Shared XorgConfig = "xorg_conf"
+     Public Shared XPP = "xpp"
+     Public Shared YAML = "yaml"
+     Public Shared Z80Assembler = "z80"
+     Public Shared ZXBasic = "zxbasic"
+End Class    </value>
+  </data>
+</root>

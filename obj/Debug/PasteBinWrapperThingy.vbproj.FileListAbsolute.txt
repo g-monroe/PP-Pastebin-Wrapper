@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\bin\Debug\PasteBinWrapperThingy.exe.config
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\obj\Debug\PasteBinWrapperThingy.MainForm.resources
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\obj\Debug\PasteBinWrapperThingy.Resources.resources
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\obj\Debug\PasteBinWrapperThingy.vbproj.GenerateResource.Cache
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\bin\Debug\PasteBinWrapperThingy.exe
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\bin\Debug\PasteBinWrapperThingy.pdb
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\bin\Debug\PasteBinWrapperThingy.xml
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\obj\Debug\PasteBinWrapperThingy.exe
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\obj\Debug\PasteBinWrapperThingy.xml
+C:\Users\Kevin\Desktop\PasteBinWrapperThingy\obj\Debug\PasteBinWrapperThingy.pdb
